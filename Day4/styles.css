@@ -1,0 +1,174 @@
+/*.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}*/
+.blackcircle {
+  height: 500px;
+  width: 500px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.whitecircle {
+  height: 350px;
+  width: 350px;
+  background: blanchedalmond;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.center {
+  height: 20px;
+  width: 20px;
+  background: rgb(231, 135, 26);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+}
+.hour {
+  border-left: 4px solid rebeccapurple;
+  height: 69px;
+  width: 1px;
+  position: absolute;
+  top: 69px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.minute {
+  border-left: 3px solid rebeccapurple;
+  height: 110px;
+  width: 1px;
+  position: absolute;
+  top: -110px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  transform-origin: bottom center;
+  transform: rotate(120deg);
+  animation: sec 3600s steps(60, end) infinite;
+}
+.second {
+  border-left: 2px solid red;
+  height: 140px;
+  width: 1px;
+  position: absolute;
+  top: -135px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  animation: sec 60s steps(60, end) infinite;
+  /* -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  animation: infinite; */
+  /* transform-origin: bottom center;
+  animation-duration: 1ms;
+  transform: rotate(360deg); */
+}
+@keyframes sec {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  
+} */
+body {
+  background-image: url("./1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.twelve {
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: rgb(212, 243, 71);
+  position: absolute;
+  top: 128px;
+  right: 0;
+  left: 755px;
+  /* left: 474px; */
+  bottom: 0;
+  z-index: 2;
+}
+.three {
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: rgb(212, 243, 71);
+  position: absolute;
+  top: 340px;
+  right: 0;
+  left: 975px;
+  bottom: 0;
+  z-index: 2;
+}
+.six {
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: rgb(212, 243, 71);
+  position: absolute;
+  top: 554px;
+  right: 0;
+  left: 755px;
+  bottom: 0;
+  z-index: 2;
+}
+.nine {
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: rgb(212, 243, 71);
+  position: absolute;
+  top: 339px;
+  right: 0;
+  left: 550px;
+  bottom: 0;
+  z-index: 2;
+}
+
+div.blackcircle {
+  /* width: 284px; */
+  /* padding: 10px 10px 20px 10px; */
+  border: 1px solid #5a45d1;
+  /* background-color: white; */
+  box-shadow: 5px 5px 5px #6d84eb;
+}
+div.whitecircle {
+  box-shadow: 2px 2px 2px salmon;
+}
+.hour,
+.minute,
+.second {
+  transform-origin: bottom;
+}
