@@ -1,11 +1,3 @@
-/*.container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin: auto;
-}*/
 .blackcircle {
   height: 500px;
   width: 500px;
@@ -19,9 +11,9 @@
   margin: auto;
 }
 .whitecircle {
-  height: 350px;
-  width: 350px;
-  background: blanchedalmond;
+  height: 300px;
+  width: 300px;
+  background: rgb(146, 209, 238);
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -33,7 +25,7 @@
 .center {
   height: 20px;
   width: 20px;
-  background: rgb(231, 135, 26);
+  background: rgb(170, 68, 165);
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -44,18 +36,19 @@
   z-index: 1;
 }
 .hour {
-  border-left: 4px solid rebeccapurple;
+  border-left: 4px solid rgb(11, 18, 109);
   height: 69px;
   width: 1px;
   position: absolute;
-  top: 69px;
+  top: 63px;
   right: 0;
   left: 0;
   bottom: 0;
   margin: auto;
+  animation: sec 43200s steps(60, end) infinite;
 }
 .minute {
-  border-left: 3px solid rebeccapurple;
+  border-left: 3px solid rgb(11, 18, 109);
   height: 110px;
   width: 1px;
   position: absolute;
@@ -109,14 +102,14 @@
 body {
   background-image: url("./1.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: auto;
 }
 .twelve {
   font-family: "Times New Roman", Times, serif;
   font-size: xx-large;
   color: rgb(212, 243, 71);
   position: absolute;
-  top: 128px;
+  top: 139px;
   right: 0;
   left: 755px;
   /* left: 474px; */
@@ -130,7 +123,7 @@ body {
   position: absolute;
   top: 340px;
   right: 0;
-  left: 975px;
+  left: 967px;
   bottom: 0;
   z-index: 2;
 }
@@ -139,7 +132,7 @@ body {
   font-size: xx-large;
   color: rgb(212, 243, 71);
   position: absolute;
-  top: 554px;
+  top: 542px;
   right: 0;
   left: 755px;
   bottom: 0;
@@ -152,7 +145,7 @@ body {
   position: absolute;
   top: 339px;
   right: 0;
-  left: 550px;
+  left: 552px;
   bottom: 0;
   z-index: 2;
 }
@@ -165,7 +158,7 @@ div.blackcircle {
   box-shadow: 5px 5px 5px #6d84eb;
 }
 div.whitecircle {
-  box-shadow: 2px 2px 2px salmon;
+  box-shadow: 0 0 5px 6px rgb(27, 252, 147);
 }
 .hour,
 .minute,
