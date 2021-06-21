@@ -1,12 +1,14 @@
+.container {
+}
 .blackcircle {
   height: 500px;
   width: 500px;
   background: black;
   border-radius: 50%;
   position: absolute;
-  top: 0;
+  top: 2%;
   right: 0;
-  left: 0;
+  left: 5%;
   bottom: 0;
   margin: auto;
 }
@@ -40,11 +42,10 @@
   height: 69px;
   width: 1px;
   position: absolute;
-  top: 63px;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  top: 27%;
+  left: 49%;
   margin: auto;
+  /* animation: sec 20s steps(60, end) infinite; */
   animation: sec 43200s steps(60, end) infinite;
 }
 .minute {
@@ -102,18 +103,17 @@
 body {
   background-image: url("./1.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-position: fixed;
 }
 .twelve {
   font-family: "Times New Roman", Times, serif;
   font-size: xx-large;
   color: rgb(212, 243, 71);
   position: absolute;
-  top: 139px;
-  right: 0;
-  left: 755px;
+  top: 5%;
+  left: 47%;
   /* left: 474px; */
-  bottom: 0;
   z-index: 2;
 }
 .three {
@@ -121,9 +121,9 @@ body {
   font-size: xx-large;
   color: rgb(212, 243, 71);
   position: absolute;
-  top: 340px;
+  top: 47%;
   right: 0;
-  left: 967px;
+  left: 89%;
   bottom: 0;
   z-index: 2;
 }
@@ -132,9 +132,9 @@ body {
   font-size: xx-large;
   color: rgb(212, 243, 71);
   position: absolute;
-  top: 542px;
+  top: 87%;
   right: 0;
-  left: 755px;
+  left: 48%;
   bottom: 0;
   z-index: 2;
 }
@@ -143,10 +143,8 @@ body {
   font-size: xx-large;
   color: rgb(212, 243, 71);
   position: absolute;
-  top: 339px;
-  right: 0;
-  left: 552px;
-  bottom: 0;
+  top: 47%;
+  left: 7%;
   z-index: 2;
 }
 
