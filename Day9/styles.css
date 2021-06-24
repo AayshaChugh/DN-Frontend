@@ -1,0 +1,98 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #ebd4cb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.screen {
+  width: 70vw;
+  background-color: #2c0703;
+  height: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.info-update {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.main-area {
+  height: 85vh;
+  background-color: #c24a2cc7;
+  width: 78vw;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.seats {
+  background-color: #f03d10c7;
+  opacity: 0.5;
+}
+
+.seats:hover {
+  background-color: #e67c62c7;
+}
+
+.booked {
+  background-color: #2c0d05c7;
+} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #ebd4cb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.movie_screen {
+  width: 70vw;
+  background-color: #2c0703;
+  height: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.main_area {
+  height: 85vh;
+  background-color: #a7f7dfc7;
+  width: 78vw;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.seats {
+  background-color: #238ff3c7;
+  opacity: 0.5;
+}
+
+.seats:hover {
+  background-color: #152036c7;
+}
+
+.booked {
+  background-color: #15397ec7;
+}
