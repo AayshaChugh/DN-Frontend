@@ -1,0 +1,29 @@
+body {
+  background-image: url("./front.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: right;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: 40%;
+  right: 22%;
+  background: rgba(64, 25, 72, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn:hover {
+  transform: scale(110%);
+  animation: all 5s infinite;
+}
