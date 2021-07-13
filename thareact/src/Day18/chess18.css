@@ -1,0 +1,13 @@
+#chesskiid {
+  width: 250px;
+  height: 250px;
+  border: 20px solid rgb(94, 23, 23);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 5px;
+}
+
+#chesskiid .chess18 {
+  width: 25px;
+  height: 25px;
+}
