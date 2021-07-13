@@ -1,0 +1,32 @@
+.chessApp {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chessBoard {
+  height: 350px;
+  width: 350px;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  border: 14px solid rgb(54, 2, 15);
+}
+
+.chessRow {
+  display: flex;
+}
+
+.chessSquare {
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+}
+
+.chessRow:nth-child(even) .chessSquare:nth-child(even) {
+  background-color: black;
+}
+
+.chessRow:nth-child(odd) .chessSquare:nth-child(odd) {
+  background-color: black;
+}
