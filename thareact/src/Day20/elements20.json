@@ -1,0 +1,27 @@
+[
+  {
+    "food": "Pizza",
+    "calorie": 56
+  },
+  {
+    "food": "Burger",
+    "calorie": 69
+  },
+  {
+    "food": "Coke",
+    "calorie": 500
+  },
+  {
+    "food": "Brownie",
+    "calorie": 180
+  },
+  {
+    "food": "Fried Rice",
+    "calorie": 90
+  },
+
+  {
+    "food": "Pani Puri",
+    "calorie": 10
+  }
+]

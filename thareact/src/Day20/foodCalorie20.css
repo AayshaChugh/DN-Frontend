@@ -1,0 +1,43 @@
+.foodContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 300px;
+  overflow-y: scroll;
+  margin-top: 30px;
+  padding: 0px 2em;
+  box-shadow: 0px 6px 80px pink;
+}
+
+.foodName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  margin-top: 1.5rem;
+  background-color: rgb(39, 4, 33);
+  width: 100%;
+  color: rgb(235, 179, 223);
+  border-radius: 15px;
+  padding: 1.1em;
+}
+
+.foodName h3 {
+  color: rgb(207, 171, 191);
+  padding-top: 4px;
+}
+
+.foodContainer::-webkit-scrollbar {
+  width: 12px;
+}
+
+.foodContainer::-webkit-scrollbar-track {
+  background: rgba(246, 197, 236, 0.3);
+}
+
+.foodContainer::-webkit-scrollbar-thumb {
+  background-color: rgb(233, 190, 217);
+  border-radius: 40px;
+}
