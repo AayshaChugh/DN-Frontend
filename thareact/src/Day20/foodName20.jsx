@@ -1,14 +1,15 @@
 import React from "react";
 
-const foodName20 = ({ props }) => {
+const FoodName20 = (props) => {
   return (
     <div className="foodName">
-      <h1>{props.food}</h1>
+      <h1>{props.foodProp.food}</h1>
       <h3>
-        {props.food} contains {props.calorie} amount of calories{" "}
+        {props.foodProp.food} contains {props.foodProp.calorie} amount of
+        calories{" "}
       </h3>
     </div>
   );
 };
 
-export default foodName20;
+export default FoodName20;
